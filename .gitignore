@@ -1,0 +1,29 @@
+
+# Created by https://www.gitignore.io/api/haskell
+# Edit at https://www.gitignore.io/?templates=haskell
+
+### Haskell ###
+haskell/*/dist
+haskell/*/dist-*
+haskell/*/cabal-dev
+haskell/*/*.o
+haskell/*/*.hi
+haskell/*/*.chi
+haskell/*/*.chs.h
+haskell/*/*.dyn_o
+haskell/*/*.dyn_hi
+haskell/*/.hpc
+haskell/*/.hsenv
+haskell/*/.cabal-sandbox/
+haskell/*/cabal.sandbox.config
+haskell/*/*.prof
+haskell/*/*.aux
+haskell/*/*.hp
+haskell/*/*.eventlog
+haskell/*/.stack-work/
+haskell/*/cabal.project.local
+haskell/*/cabal.project.local~
+haskell/*/.HTF/
+haskell/*/.ghc.environment.*
+
+# End of https://www.gitignore.io/api/haskell
