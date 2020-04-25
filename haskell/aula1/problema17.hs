@@ -5,7 +5,7 @@ isPrime :: Int -> Int -> Bool
 
 isPrime x 0 = True
 isPrime x y =
-    if (x `mod` y == 0) then
+    if ((x `mod` y) == 0) then
         False
     else
         isPrime x (y-1)
